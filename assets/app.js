@@ -147,9 +147,11 @@ function carregarListaDespesas(despesas = Array(), filtro = false) {
                 break
             case '2': d.tipo = 'Educação'
                 break
-            case '3': d.tipo = 'Saúde'
+            case '3': d.tipo = 'Lazer'
                 break
-            case '4': d.tipo = 'Transporte'
+            case '4': d.tipo = 'Saúde'
+                break
+            case '5': d.tipo = 'Transporte'
                 break
         }
         linha.insertCell(1).innerHTML = `${d.tipo}`
